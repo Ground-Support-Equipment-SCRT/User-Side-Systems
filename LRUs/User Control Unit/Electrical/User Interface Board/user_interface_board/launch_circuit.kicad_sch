@@ -2,7 +2,117 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "6ec78ed3-d5ce-40d4-bf31-e54fe99cacb7")
+	(uuid "f9646c7d-aeb0-47b1-9895-11bff53d5f71")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "LAUNCH_STAT"
+		(shape output)
+		(at 250.19 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15c14dd0-3f36-4858-8a03-e1ca51d68e94")
+	)
+	(hierarchical_label "SAFE_LED-"
+		(shape input)
+		(at 31.75 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d620806-bf4d-4a94-a7b0-4647adbbd200")
+	)
+	(hierarchical_label "ARMED_LED+"
+		(shape output)
+		(at 31.75 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "454b6554-df03-4fd8-a847-14f72cad60b8")
+	)
+	(hierarchical_label "ARMED_STAT"
+		(shape output)
+		(at 250.19 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5fb00d0c-dbdb-4346-89da-1c0b381abfe7")
+	)
+	(hierarchical_label "ARM_SW-"
+		(shape input)
+		(at 31.75 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "614ae2e9-1186-4690-95d2-ee5570530d3d")
+	)
+	(hierarchical_label "BUTTON+"
+		(shape output)
+		(at 31.75 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6206775e-cda3-4891-8e48-0b5ec19572e4")
+	)
+	(hierarchical_label "BUTTON_NO"
+		(shape input)
+		(at 31.75 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "631545ff-dfc6-488b-b228-8acbf33a0daf")
+	)
+	(hierarchical_label "BUTTON_C"
+		(shape output)
+		(at 30.48 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5a12914-d5ce-4c64-b3b6-71ae6ab794a0")
+	)
+	(hierarchical_label "ARMED_LED-"
+		(shape input)
+		(at 31.75 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e687f77f-4459-4553-9c01-c033e1db2f33")
+	)
+	(hierarchical_label "SAFE_LED+"
+		(shape output)
+		(at 31.75 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb4247d0-5d86-47fc-aff3-b9316e6b54cb")
+	)
 )

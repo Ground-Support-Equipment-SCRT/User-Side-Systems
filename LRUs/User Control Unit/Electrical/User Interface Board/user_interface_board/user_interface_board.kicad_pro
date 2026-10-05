@@ -63,13 +63,19 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 3,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -156,7 +162,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -203,7 +209,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.1778
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +239,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -528,7 +542,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "user_interface_board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -673,18 +687,17 @@
         "uuid": "5c9cf600-f97e-40e0-a9fc-86e24261d606"
       },
       {
-        "filename": "led_driver_1.kicad_sch",
-        "name": "LED Driver 1",
-        "uuid": "6df97942-6445-4fd0-b7f1-fd46017dd787"
-      },
-      {
         "filename": "mechanical.kicad_sch",
         "name": "Mechanical",
         "uuid": "5c237005-d2ed-4a35-b57c-699cd252542f"
       }
     ],
-    "used_designators": "J1-13,#PWR1-6,H1-4,U1",
-    "variants": []
+    "used_designators": "R92-95,J1-13,#PWR1-22,H1-5,U1-2",
+    "variants": [
+      {
+        "name": "My VARIANT DARNIT"
+      }
+    ]
   },
   "sheets": [
     [
@@ -700,16 +713,16 @@
       "top level"
     ],
     [
-      "6df97942-6445-4fd0-b7f1-fd46017dd787",
-      "LED Driver 1"
-    ],
-    [
       "5c237005-d2ed-4a35-b57c-699cd252542f",
       "Mechanical"
     ],
     [
       "d8e6c390-caf1-4e15-bf61-91cbe3d04e0b",
       "launch circuit"
+    ],
+    [
+      "88d1765f-ddc0-48ad-80fe-a2d2d95242f5",
+      "LED driver"
     ]
   ],
   "text_variables": {},

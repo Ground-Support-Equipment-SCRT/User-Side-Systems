@@ -1,0 +1,7 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"J1, J2, J3, J4",JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal,4,S3B-PH-K-S,
+"J10, J11, J12, J8, J9",JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal,5,S4B-PH-K-S,
+J13,JST_PH_S12B-PH-K_1x12_P2.00mm_Horizontal,1,S12B-PH-K-S,
+"J5, J6, J7",JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,3,S2B-PH-K-S,
+"R92, R93, R94, R95",0603,4,10k,C25804
+U2,TSSOP_012PWR_TEX,1,LP5012PWR,
