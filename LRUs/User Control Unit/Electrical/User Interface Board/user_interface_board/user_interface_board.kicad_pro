@@ -211,7 +211,8 @@
       ],
       "track_widths": [
         0.0,
-        0.1778
+        0.1778,
+        0.254
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -692,7 +693,7 @@
         "uuid": "5c237005-d2ed-4a35-b57c-699cd252542f"
       }
     ],
-    "used_designators": "R92-95,J1-13,#PWR1-22,H1-5,U1-2",
+    "used_designators": "D1-5,C1-5,C107,TP1-4,R1-13,R92-95,R165,R169-170,R1001,J1-13,FB1-2,#PWR1-40,H1-5,Q1-2,U1-2",
     "variants": [
       {
         "name": "My VARIANT DARNIT"
