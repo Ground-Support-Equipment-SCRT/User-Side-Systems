@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "38a5f25b-9a9a-4b9c-b26a-e844239928a8")
+	(uuid "60e77252-ec71-4830-bff6-925bbdb1c19e")
 	(paper "A4")
 	(lib_symbols)
 	(hierarchical_label "fjkldsjflks"
@@ -16,4 +16,10 @@
 		)
 		(uuid "ca9959a7-e85b-45ba-bf78-fdf2caf23ad8")
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
