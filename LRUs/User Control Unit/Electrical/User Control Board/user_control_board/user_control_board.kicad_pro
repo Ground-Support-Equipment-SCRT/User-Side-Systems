@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +209,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.1778
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +239,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -449,6 +463,7 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
+      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -526,11 +541,14 @@
   },
   "pcbnew": {
     "last_paths": {
+      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -615,12 +633,114 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part #",
+          "name": "JLCPCB Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER_PART_NUMBER",
+          "name": "MANUFACTURER_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR_NAME",
+          "name": "MFR_NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SW",
+          "name": "SW",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VDS",
+          "name": "VDS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VR",
+          "name": "VR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vf",
+          "name": "Vf",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vmax",
+          "name": "Vmax",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vz",
+          "name": "Vz",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IMAX",
+          "name": "IMAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Footprint_Size",
+          "name": "Footprint_Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIGIKEY Part #",
+          "name": "DIGIKEY Part #",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -653,9 +773,17 @@
     "meta": {
       "version": 1
     },
+    "net_format_name": "",
     "page_layout_descr_file": "kicad-embed://SCRT_Template.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
+    "space_save_all_events": true,
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
@@ -726,6 +854,10 @@
     [
       "4e4fbe8c-7357-4f75-8a99-a243261c2770",
       "Power"
+    ],
+    [
+      "41704214-6d9d-43c3-b829-66d009a1b449",
+      "3.3V"
     ],
     [
       "d78f77d0-5dd5-4b89-95d6-d39e93888f46",

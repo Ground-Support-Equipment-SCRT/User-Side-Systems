@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "e1916083-f3c7-404f-afb9-9720d76191b8")
 	(paper "A4")
+	(title_block
+		(title "Power")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
@@ -468,7 +471,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 67.31) (xy 118.11 67.31)
+			(xy 133.35 71.12) (xy 128.27 71.12)
 		)
 		(stroke
 			(width 0)
@@ -478,7 +481,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 67.31) (xy 87.63 67.31)
+			(xy 62.23 71.12) (xy 97.79 71.12)
 		)
 		(stroke
 			(width 0)
@@ -488,7 +491,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 64.77) (xy 123.19 67.31)
+			(xy 133.35 68.58) (xy 133.35 71.12)
 		)
 		(stroke
 			(width 0)
@@ -498,7 +501,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 72.39) (xy 54.61 69.85)
+			(xy 64.77 76.2) (xy 64.77 73.66)
 		)
 		(stroke
 			(width 0)
@@ -508,7 +511,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 69.85) (xy 52.07 69.85)
+			(xy 64.77 73.66) (xy 62.23 73.66)
 		)
 		(stroke
 			(width 0)
@@ -518,7 +521,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 123.19 64.77 0)
+		(at 133.35 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -529,7 +532,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c8b674b-89d9-40d1-8e8c-d90293a54bf7")
 		(property "Reference" "#PWR04"
-			(at 123.19 68.58 0)
+			(at 133.35 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -540,7 +543,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 123.19 59.69 0)
+			(at 133.35 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -550,7 +553,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 64.77 0)
+			(at 133.35 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -561,7 +564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 64.77 0)
+			(at 133.35 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -572,7 +575,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 123.19 64.77 0)
+			(at 133.35 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -596,7 +599,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 72.39 0)
+		(at 64.77 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -607,7 +610,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bddd856-4d89-4ccd-9dd9-81cee1113767")
 		(property "Reference" "#PWR03"
-			(at 54.61 78.74 0)
+			(at 64.77 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -618,7 +621,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 77.47 0)
+			(at 64.77 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -629,7 +632,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 72.39 0)
+			(at 64.77 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -640,7 +643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 72.39 0)
+			(at 64.77 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -651,7 +654,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 72.39 0)
+			(at 64.77 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -675,7 +678,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 46.99 67.31 0)
+		(at 57.15 71.12 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -687,7 +690,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd49b3a9-4610-43e7-bef1-6f1c13574913")
 		(property "Reference" "J3"
-			(at 46.99 60.96 0)
+			(at 57.15 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -697,7 +700,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 46.99 63.5 0)
+			(at 57.15 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -707,7 +710,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-			(at 46.99 67.31 0)
+			(at 57.15 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -718,7 +721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 67.31 0)
+			(at 57.15 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -729,7 +732,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 46.99 67.31 0)
+			(at 57.15 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -755,7 +758,63 @@
 		)
 	)
 	(sheet
-		(at 87.63 64.77)
+		(at 213.36 76.2)
+		(size 66.04 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "41704214-6d9d-43c3-b829-66d009a1b449")
+		(property "Sheetname" "3.3V"
+			(at 213.36 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 213.36 107.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "fjkldsjflks" input
+			(at 246.38 106.68 270)
+			(uuid "f603e57c-139b-49c2-baf9-a9e98f6de9f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "user_control_board"
+				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 68.58)
 		(size 30.48 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -771,7 +830,7 @@
 		)
 		(uuid "d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7")
 		(property "Sheetname" "5V"
-			(at 87.63 63.9822 0)
+			(at 97.79 67.7922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -782,7 +841,7 @@
 			)
 		)
 		(property "Sheetfile" "5V.kicad_sch"
-			(at 87.63 83.2108 0)
+			(at 97.79 87.0208 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -793,7 +852,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 87.63 67.31 180)
+			(at 97.79 71.12 180)
 			(uuid "ee46a56d-3b2f-408d-9976-39906d9b645c")
 			(effects
 				(font
@@ -803,7 +862,7 @@
 			)
 		)
 		(pin "5V_MAIN_PG" output
-			(at 118.11 73.66 0)
+			(at 128.27 77.47 0)
 			(uuid "6d6b3c8c-2ca6-4cdf-9a2e-5cdec0072db0")
 			(effects
 				(font
@@ -813,7 +872,7 @@
 			)
 		)
 		(pin "VOUT" output
-			(at 118.11 67.31 0)
+			(at 128.27 71.12 0)
 			(uuid "84414a95-f9e6-40bc-abc0-0828df66fa99")
 			(effects
 				(font

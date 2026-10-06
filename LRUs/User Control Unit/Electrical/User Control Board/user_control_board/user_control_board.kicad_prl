@@ -48,11 +48,9 @@
       "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
-      "shapes",
-      "board_outline_area",
-      "ly_points"
+      "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffab",
     "zone_display_mode": 0
   },
   "git": {
@@ -76,6 +74,8 @@
       false,
       false,
       false,
+      false,
+      false,
       false
     ],
     "col_order": [
@@ -88,7 +88,9 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
     "col_widths": [
       186,

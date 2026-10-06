@@ -3563,9 +3563,6 @@
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
 					(reference "R165")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -3867,9 +3864,6 @@
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
 					(reference "C110")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -4101,9 +4095,6 @@
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
 					(reference "R168")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -4242,9 +4233,6 @@
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
 					(reference "J16")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -4632,9 +4620,6 @@
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
 					(reference "R169")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -4924,9 +4909,6 @@
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
 					(reference "R170")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -5157,9 +5139,6 @@
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
 					(reference "U32")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -5279,9 +5258,6 @@
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
 					(reference "TP199")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -5394,9 +5370,6 @@
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
 					(reference "R171")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -5509,9 +5482,6 @@
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
 					(reference "R166")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -5624,9 +5594,6 @@
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
 					(reference "R167")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)

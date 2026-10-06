@@ -2524,9 +2524,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "U1")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -2639,9 +2636,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "R3")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -2831,9 +2825,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "L1")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -2946,9 +2937,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "C3")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -3180,9 +3168,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "C4")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -3295,9 +3280,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "C7")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -3579,9 +3561,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "D1")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -3888,9 +3867,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "R1")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -4082,9 +4058,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "R4")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -4355,9 +4328,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "R6")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -4470,9 +4440,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "R2")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -4662,9 +4629,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "C5")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -4777,9 +4741,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "C2")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -4900,9 +4861,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "TP4")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -5023,9 +4981,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "TP2")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -5217,9 +5172,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "C1")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -5409,9 +5361,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "R5")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -5524,9 +5473,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "C6")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -5725,9 +5671,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "TP3")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -6044,9 +5987,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "TP5")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -6166,9 +6106,6 @@
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/d6db9c4d-c905-4a10-8a7a-775aeaa4b2a7"
 					(reference "TP1")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
