@@ -821,9 +821,19 @@
         "filename": "mechanicak.kicad_sch",
         "name": "Mechanical",
         "uuid": "5b97fe44-b582-48d0-85a5-3f832c28b8e4"
+      },
+      {
+        "filename": "transceiver.kicad_sch",
+        "name": "Transceiver",
+        "uuid": "3bcd0de7-001e-4df3-8d43-0dd29348c79f"
+      },
+      {
+        "filename": "mosfet.kicad_sch",
+        "name": "Mosfet",
+        "uuid": "0b01eee9-e8c8-4965-a431-95eb44ba626f"
       }
     ],
-    "used_designators": "A1,D1-2,D41-42,#PWR1-16,#PWR88-91,#PWR146,#PWR148,#PWR150,#PWR152,#PWR157-158,#PWR163,#PWR168,#PWR170,#PWR172,#PWR266-273,#PWR282,#PWR289-295,#PWR318,C1-11,C61,C63,C65,C107,C110,C121-127,#FLG5,R1-9,R11-12,R112,R118-119,R122,R165-171,R173,R223-227,R235-237,R242,J1-6,J16,TP1-5,TP107,TP110,TP139-143,TP199,U1,U17-19,U32,L1-3,SW1,H1-4,VR1",
+    "used_designators": "A1,D1-2,D41-42,#PWR1-22,#PWR88-91,#PWR146,#PWR148,#PWR150,#PWR152,#PWR157-158,#PWR163,#PWR168,#PWR170,#PWR172,#PWR266-273,#PWR282,#PWR289-295,#PWR318,C1-11,C61,C63,C65,C107,C110,C121-127,#FLG5,R1-13,R112,R118-119,R122,R165-171,R173,R223-227,R235-237,R242,J1-6,J16,TP1-5,TP107,TP110,TP139-143,TP199,U1-2,U17-19,U32,L1-3,SW1,H1-4,VR1,Q1",
     "variants": [
       {
         "name": "My VARIANT DARNIT"
@@ -870,6 +880,14 @@
     [
       "811f9a52-e8ec-4828-84ba-93ec819f5f12",
       "12V"
+    ],
+    [
+      "3bcd0de7-001e-4df3-8d43-0dd29348c79f",
+      "Transceiver"
+    ],
+    [
+      "0b01eee9-e8c8-4965-a431-95eb44ba626f",
+      "Mosfet"
     ]
   ],
   "text_variables": {},
