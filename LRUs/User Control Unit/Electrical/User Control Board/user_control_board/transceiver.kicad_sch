@@ -651,59 +651,33 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "idk how to do sd card"
-		(exclude_from_sim no)
-		(at 84.328 79.248 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d5e37977-eed3-4507-91c9-3933fbae7a91")
-	)
-	(junction
-		(at 92.71 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50f77c28-fa14-4223-b394-7057cb0810ad")
-	)
 	(no_connect
-		(at 121.92 104.14)
+		(at 132.08 104.14)
 		(uuid "3efcf0e2-3a18-478d-aaee-992c70791631")
 	)
 	(no_connect
-		(at 121.92 99.06)
+		(at 132.08 99.06)
 		(uuid "410e4522-7b00-4468-8bce-b119a9748121")
 	)
 	(no_connect
-		(at 121.92 101.6)
+		(at 132.08 101.6)
 		(uuid "540af91a-4e8f-4ff5-964c-ae9594439c13")
 	)
 	(no_connect
-		(at 121.92 93.98)
+		(at 132.08 93.98)
 		(uuid "5acd3e4d-7a41-498d-b539-84901522b67d")
 	)
 	(no_connect
-		(at 121.92 109.22)
+		(at 132.08 109.22)
 		(uuid "6c0958f6-b8bd-4575-9a4b-8b2f3731f1e2")
 	)
 	(no_connect
-		(at 121.92 106.68)
+		(at 132.08 106.68)
 		(uuid "b2a99fb5-48ff-4496-8715-b6a5baac1147")
 	)
 	(wire
 		(pts
-			(xy 92.71 93.98) (xy 96.52 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c7ca873-49fe-4cfe-8f94-c964c7306d3c")
-	)
-	(wire
-		(pts
-			(xy 82.55 96.52) (xy 96.52 96.52)
+			(xy 82.55 96.52) (xy 106.68 96.52)
 		)
 		(stroke
 			(width 0)
@@ -713,7 +687,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 101.6) (xy 96.52 101.6)
+			(xy 82.55 101.6) (xy 106.68 101.6)
 		)
 		(stroke
 			(width 0)
@@ -723,7 +697,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 106.68) (xy 96.52 106.68)
+			(xy 82.55 106.68) (xy 106.68 106.68)
 		)
 		(stroke
 			(width 0)
@@ -733,17 +707,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 91.44) (xy 92.71 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88005c76-30e2-4e88-9ecc-f618a1967a84")
-	)
-	(wire
-		(pts
-			(xy 82.55 99.06) (xy 96.52 99.06)
+			(xy 82.55 99.06) (xy 106.68 99.06)
 		)
 		(stroke
 			(width 0)
@@ -753,7 +717,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 93.98) (xy 92.71 93.98)
+			(xy 82.55 93.98) (xy 106.68 93.98)
 		)
 		(stroke
 			(width 0)
@@ -763,7 +727,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 85.09) (xy 109.22 88.9)
+			(xy 119.38 85.09) (xy 119.38 88.9)
 		)
 		(stroke
 			(width 0)
@@ -772,7 +736,7 @@
 		(uuid "dcf205a7-7ab5-48b9-8b67-e86aa626c0a7")
 	)
 	(label "SDMMC1_CK"
-		(at 92.71 91.44 180)
+		(at 96.52 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -780,6 +744,26 @@
 			(justify right bottom)
 		)
 		(uuid "117a03ee-7733-4935-97a9-d66790ab22af")
+	)
+	(label "SDMMC1_D0"
+		(at 96.52 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f399542-1942-4064-bba3-cbc051b01fee")
+	)
+	(label "SDMMC1_CMD"
+		(at 97.79 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91ee172a-3335-418b-ace1-c44d07ea909a")
 	)
 	(hierarchical_label "GP19"
 		(shape input)
@@ -794,7 +778,7 @@
 	)
 	(hierarchical_label "GP8"
 		(shape input)
-		(at 121.92 96.52 0)
+		(at 132.08 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -849,7 +833,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 109.22 85.09 0)
+		(at 119.38 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -860,7 +844,7 @@
 		(fields_autoplaced yes)
 		(uuid "045e8b8b-e43e-4da5-9813-50afd1345bee")
 		(property "Reference" "#PWR019"
-			(at 109.22 88.9 0)
+			(at 119.38 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -871,7 +855,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 109.22 80.01 0)
+			(at 119.38 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -881,7 +865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 85.09 0)
+			(at 119.38 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -892,7 +876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 85.09 0)
+			(at 119.38 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -903,7 +887,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 109.22 85.09 0)
+			(at 119.38 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -927,7 +911,7 @@
 	)
 	(symbol
 		(lib_id "RF_Module:RFM69HW")
-		(at 109.22 101.6 0)
+		(at 119.38 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -938,7 +922,7 @@
 		(fields_autoplaced yes)
 		(uuid "148bf440-cfa2-4166-aabf-5eedf608d7a3")
 		(property "Reference" "U2"
-			(at 111.3633 86.36 0)
+			(at 121.5233 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -949,7 +933,7 @@
 			)
 		)
 		(property "Value" "RFM69HW"
-			(at 111.3633 88.9 0)
+			(at 121.5233 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -960,7 +944,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:HOPERF_RFM69HW"
-			(at 109.22 116.84 0)
+			(at 119.38 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -971,7 +955,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.hoperf.com/data/upload/portal/20181127/5bfcbb56f1fd7.pdf"
-			(at 109.22 109.22 0)
+			(at 119.38 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -982,7 +966,7 @@
 			)
 		)
 		(property "Description" "ISM Radio Transceiver Module, SPI interface"
-			(at 109.22 101.6 0)
+			(at 119.38 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1051,7 +1035,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 114.3 0)
+		(at 121.92 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1062,7 +1046,7 @@
 		(fields_autoplaced yes)
 		(uuid "938d4f2c-4bb2-4f9e-accd-89e025ad5e97")
 		(property "Reference" "#PWR020"
-			(at 111.76 120.65 0)
+			(at 121.92 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1073,7 +1057,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 119.38 0)
+			(at 121.92 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1084,7 +1068,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 114.3 0)
+			(at 121.92 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1095,7 +1079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 114.3 0)
+			(at 121.92 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1106,7 +1090,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 114.3 0)
+			(at 121.92 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
