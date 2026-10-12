@@ -1701,104 +1701,221 @@
 		)
 		(uuid "ac03fbe2-e2d1-4949-9c14-c6ec59535f72")
 	)
-	(hierarchical_label "GP19"
-		(shape output)
-		(at 168.91 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "11d13313-bdbb-4a85-989e-e3cd1c1c7823")
-	)
-	(hierarchical_label "GP20"
-		(shape output)
-		(at 168.91 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2b640d55-3c55-49cd-8382-cbe66494b53d")
-	)
-	(hierarchical_label "GP21"
-		(shape output)
-		(at 168.91 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2fa69261-2f99-4f3b-80bb-ba4802097814")
-	)
-	(hierarchical_label "GP5"
-		(shape output)
-		(at 123.19 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5dd40177-4102-4cf1-bd26-6ac302be8de5")
-	)
-	(hierarchical_label "GP16"
-		(shape output)
-		(at 168.91 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "75b62d38-82e5-44a1-a28e-a9c1fe57f29e")
-	)
-	(hierarchical_label "GP18"
+	(global_label "GP18"
 		(shape output)
 		(at 168.91 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "8f021cd9-425f-4cf1-ab44-9313d1a9c614")
-	)
-	(hierarchical_label "GP17"
-		(shape output)
-		(at 168.91 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "163509ef-132e-4b5f-a516-52ea709a4425")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.8542 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify left)
 		)
-		(uuid "98ab610a-f55e-4cd1-8d74-f26ab964f7b9")
 	)
-	(hierarchical_label "GP4"
+	(global_label "GP4"
 		(shape output)
 		(at 123.19 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "9f001859-73ba-465d-a24e-17bb50280c90")
+		(uuid "5525148d-7d30-4df8-b993-a3d6b9172ef5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.4553 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(hierarchical_label "GP8"
+	(global_label "GP8"
 		(shape output)
 		(at 123.19 101.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ed298197-0a99-4bdb-a8c3-a0d46c22974b")
+		(uuid "5c40311e-0bfa-4fb6-8abf-e6752fd98106")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.4553 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GP5"
+		(shape output)
+		(at 123.19 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85a0aff5-19eb-4fb4-99a9-c2e6f0716069")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.4553 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GP16"
+		(shape output)
+		(at 168.91 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f0a01ef-7571-4b5f-8851-f5a067fd1375")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.8542 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GP21"
+		(shape output)
+		(at 168.91 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c91d5f1e-4667-4f64-848c-a0a9b5848fe4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.8542 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GP20"
+		(shape output)
+		(at 168.91 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d99fd9ee-c143-4040-9e4b-0c8927833d5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.8542 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GP17"
+		(shape output)
+		(at 168.91 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dac5cbf9-c3c3-4aad-a586-e211b6a62cd5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.8542 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GP19"
+		(shape output)
+		(at 168.91 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcb76385-6c32-4da4-b839-6d95ef321bc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.8542 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MCU_Module:RaspberryPi_Pico_W")
