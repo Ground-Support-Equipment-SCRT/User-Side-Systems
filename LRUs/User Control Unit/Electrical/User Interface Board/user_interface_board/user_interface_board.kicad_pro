@@ -464,7 +464,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -525,13 +524,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -669,17 +669,9 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
@@ -704,7 +696,7 @@
         "uuid": "5c237005-d2ed-4a35-b57c-699cd252542f"
       }
     ],
-    "used_designators": "D1-5,C1-5,C107,TP1-4,R1-13,R92-95,R165,R169-170,R1001,J1-13,FB1-2,#PWR1-40,H1-5,Q1-2,U1-2",
+    "used_designators": "D1-5,#PWR1-40,C1-5,C107,TP1-4,FB1-2,R1-13,R92-95,R165,R169-170,R1001,J1-13,H1-5,Q1-2,U1-2",
     "variants": [
       {
         "name": "My VARIANT DARNIT"

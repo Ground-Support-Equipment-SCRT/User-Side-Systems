@@ -1107,6 +1107,16 @@
 		)
 		(uuid "76310ede-4cbe-4a66-9ecc-d8e0c125fb85")
 	)
+	(text "texus insturements 12 v boost regulator\n\nmake schematic from input from 2s battery sends it to another connector *another screw terminal and that connector would send to external module xl6009. "
+		(exclude_from_sim no)
+		(at 108.966 124.714 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "99baa903-a911-4055-a888-cdc8c89b249f")
+	)
 	(text "1N5824? from datasheet?"
 		(exclude_from_sim no)
 		(at 125.73 70.104 0)
@@ -1116,6 +1126,16 @@
 			)
 		)
 		(uuid "a1fdc410-4fc9-4469-8ddc-118f23f8f7fe")
+	)
+	(text "COILCRAFT FOR INDUCTOR\n"
+		(exclude_from_sim no)
+		(at 85.852 61.722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a3027c6f-ee9e-45a1-9e00-2ac562996d03")
 	)
 	(junction
 		(at 55.88 91.44)

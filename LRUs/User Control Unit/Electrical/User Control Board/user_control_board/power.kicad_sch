@@ -469,6 +469,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "2S Battery\n"
+		(exclude_from_sim no)
+		(at 55.118 61.722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1df5a6a6-7388-4ee6-9239-845abced933b")
+	)
+	(text "Fuse"
+		(exclude_from_sim no)
+		(at 61.976 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8e2eb988-ece8-4e3d-bce1-ce65e3396b15")
+	)
 	(junction
 		(at 97.79 123.19)
 		(diameter 0)
