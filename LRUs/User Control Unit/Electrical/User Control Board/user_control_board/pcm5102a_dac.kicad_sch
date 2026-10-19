@@ -586,29 +586,25 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DATA IN = PIN 14\n"
+	(text "LCK?"
 		(exclude_from_sim no)
-		(at 139.954 125.73 0)
+		(at 132.08 136.144 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "83007619-0bc3-4340-8058-278ca1460e88")
+		(uuid "3f5edda6-fe04-4bb0-a93e-a24ff420e7d4")
 	)
-	(text "LCK 32\n"
+	(text ""
 		(exclude_from_sim no)
-		(at 112.522 171.958 0)
+		(at 135.636 143.764 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "8410bfb5-4959-4944-90d8-ef7716dfcac4")
-	)
-	(no_connect
-		(at 120.65 135.89)
-		(uuid "13eba687-a232-4ea5-a0aa-e15104f429a7")
+		(uuid "44d191ca-5b7b-4a3d-82f5-686bd93c8e64")
 	)
 	(no_connect
 		(at 87.63 143.51)
@@ -682,8 +678,32 @@
 		)
 		(uuid "c2905f3c-dc9f-43d7-96ce-ad96478b72fd")
 	)
-	(global_label "GP8"
-		(shape input)
+	(global_label "GP27"
+		(shape output)
+		(at 120.65 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b766454-1f8c-408f-8cf6-0e54539895cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.5942 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GP28"
+		(shape output)
 		(at 120.65 139.7 0)
 		(fields_autoplaced yes)
 		(effects
@@ -692,9 +712,9 @@
 			)
 			(justify left)
 		)
-		(uuid "480d240e-ba52-44a6-9c9b-71a47517e4fc")
+		(uuid "1c684633-2437-42fb-94c2-ae8af23ad957")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.3847 139.7 0)
+			(at 128.5942 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -707,7 +727,7 @@
 		)
 	)
 	(global_label "GP26"
-		(shape input)
+		(shape output)
 		(at 120.65 143.51 0)
 		(fields_autoplaced yes)
 		(effects
@@ -716,7 +736,7 @@
 			)
 			(justify left)
 		)
-		(uuid "79263556-c7d2-425c-af47-2fbb9d1c3d58")
+		(uuid "a7e20a96-2f29-4fea-ab19-697e5e8a2ad6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.5942 143.51 0)
 			(hide yes)
@@ -997,7 +1017,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:Adafruit PCM510x I2S DAC"
 			(at 102.87 148.59 0)
 			(hide yes)
 			(show_name no)
