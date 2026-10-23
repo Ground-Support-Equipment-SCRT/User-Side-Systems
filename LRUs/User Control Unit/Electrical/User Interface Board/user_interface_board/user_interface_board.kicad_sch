@@ -33,7 +33,7 @@
 		)
 		(uuid "f4755c9d-a39a-461e-8e90-ec5f928a8ab8")
 	)
-	(text_box "RESPONSIBLE ENGINEER: \nNICHOLAS ALVES\nJAMES F\n\nREVIEWERS:"
+	(text_box "RESPONSIBLE ENGINEER: \nJAMES F\n\nREVIEWERS:\nNICHOLAS ALVES"
 		(exclude_from_sim no)
 		(at 174.498 121.158 0)
 		(size 46.99 17.2375)

@@ -1545,6 +1545,63 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -3687,6 +3744,100 @@
 			(project "user_interface_board"
 				(path "/5c9cf600-f97e-40e0-a9fc-86e24261d606"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project Library:RCLAMP0582N(ES)")
+		(at 219.71 36.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "259f4790-d095-4f19-8e5a-7e7a18708844")
+		(property "Reference" "D4"
+			(at 222.25 35.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RCLAMP0582N(ES)"
+			(at 222.25 38.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Project Library:SON40P100X120X65-6N"
+			(at 219.71 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "54a0adc7-61d2-4393-a61e-884e4b8c7be1")
+		)
+		(pin "5"
+			(uuid "7c4802d4-6930-43e4-9a4d-cab9398a1a0c")
+		)
+		(pin "3"
+			(uuid "55e47706-0835-448f-88db-61177e04741d")
+		)
+		(pin "2"
+			(uuid "1dd13964-da5d-4f53-a1a2-9a87c651e548")
+		)
+		(pin "1"
+			(uuid "0217fbe9-e7f7-4aa3-988c-90b39c8f3bbf")
+		)
+		(pin "4"
+			(uuid "3d482e4e-2902-4485-85f0-b5fea9978591")
+		)
+		(instances
+			(project "user_interface_board"
+				(path "/5c9cf600-f97e-40e0-a9fc-86e24261d606"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6279,102 +6430,6 @@
 			(project "user_interface_board"
 				(path "/5c9cf600-f97e-40e0-a9fc-86e24261d606"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Project Library:RCLAMP0582N(ES)")
-		(at 219.71 36.83 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efa25651-eba0-4bdd-bb8f-ba6c1d83c4bd")
-		(property "Reference" "D4"
-			(at 222.25 35.5599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RCLAMP0582N(ES)"
-			(at 222.25 38.0999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project Library:SON40P100X120X65-6N"
-			(at 219.71 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C46970803"
-			(at 219.71 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c17420b2-472a-497f-9abc-801a3d76b784")
-		)
-		(pin "3"
-			(uuid "f88d96c1-e82a-4717-9910-846443a55bc7")
-		)
-		(pin "1"
-			(uuid "0bbbb58c-7b6a-4d12-a739-1196fa1f2144")
-		)
-		(instances
-			(project "user_interface_board"
-				(path "/5c9cf600-f97e-40e0-a9fc-86e24261d606"
-					(reference "D4")
 					(unit 1)
 				)
 			)
