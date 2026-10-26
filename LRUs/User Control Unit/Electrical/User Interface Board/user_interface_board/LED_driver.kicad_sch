@@ -438,7 +438,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pcb_symbols:LP5012PWR"
+		(symbol "Project Library:LP5012PWR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -467,7 +467,7 @@
 					)
 				)
 			)
-			(property "Footprint" "footprints:TSSOP_012PWR_TEX"
+			(property "Footprint" "Project Library:TSSOP_012PWR_TEX"
 				(at 22.098 17.526 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1942,7 +1942,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pcb_symbols:LP5012PWR")
+		(lib_id "Project Library:LP5012PWR")
 		(at 124.46 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -1973,7 +1973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:TSSOP_012PWR_TEX"
+		(property "Footprint" "Project Library:TSSOP_012PWR_TEX"
 			(at 146.558 56.134 0)
 			(hide yes)
 			(show_name no)

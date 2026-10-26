@@ -280,7 +280,64 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|2501900|609600|454b6554-df03-4fd8-a847-14f72cad60b8|5fb00d0c-dbdb-4346-89da-1c0b381abfe7|/5c9cf600-f97e-40e0-a9fc-86e24261d606/d8e6c390-caf1-4e15-bf61-91cbe3d04e0b|/5c9cf600-f97e-40e0-a9fc-86e24261d606/d8e6c390-caf1-4e15-bf61-91cbe3d04e0b|/5c9cf600-f97e-40e0-a9fc-86e24261d606/d8e6c390-caf1-4e15-bf61-91cbe3d04e0b",
+        "Intended."
+      ],
+      [
+        "multiple_net_names|2501900|660400|631545ff-dfc6-488b-b228-8acbf33a0daf|15c14dd0-3f36-4858-8a03-e1ca51d68e94|/5c9cf600-f97e-40e0-a9fc-86e24261d606/d8e6c390-caf1-4e15-bf61-91cbe3d04e0b|/5c9cf600-f97e-40e0-a9fc-86e24261d606/d8e6c390-caf1-4e15-bf61-91cbe3d04e0b|/5c9cf600-f97e-40e0-a9fc-86e24261d606/d8e6c390-caf1-4e15-bf61-91cbe3d04e0b",
+        "Intended."
+      ],
+      [
+        "multiple_net_names|317500|609600|454b6554-df03-4fd8-a847-14f72cad60b8|614ae2e9-1186-4690-95d2-ee5570530d3d|/5c9cf600-f97e-40e0-a9fc-86e24261d606/d8e6c390-caf1-4e15-bf61-91cbe3d04e0b|/5c9cf600-f97e-40e0-a9fc-86e24261d606/d8e6c390-caf1-4e15-bf61-91cbe3d04e0b|/5c9cf600-f97e-40e0-a9fc-86e24261d606/d8e6c390-caf1-4e15-bf61-91cbe3d04e0b",
+        "Intended."
+      ],
+      [
+        "pin_to_pin|1244600|1079500|e713fab3-0bc5-4c29-878c-d7fffd9e8873|ad4a54d3-d8ad-4f3a-bfa7-beee832cf7e6|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5",
+        "Setting I2C address."
+      ],
+      [
+        "pin_to_pin|1244600|1104900|5a1465da-be36-4646-8f8a-3e67925fea66|ad4a54d3-d8ad-4f3a-bfa7-beee832cf7e6|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5",
+        "Setting I2C address."
+      ],
+      [
+        "pin_to_pin|1244600|1181100|549bfda5-cba4-45b2-8a53-32e24108b307|ad4a54d3-d8ad-4f3a-bfa7-beee832cf7e6|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5",
+        "Grounds."
+      ],
+      [
+        "pin_to_pin|1244600|1206500|822315e9-d5dc-495a-ae14-8da790c5e894|ad4a54d3-d8ad-4f3a-bfa7-beee832cf7e6|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5",
+        "Grounds."
+      ],
+      [
+        "pin_to_pin|1244600|774700|da2b4a9c-53b9-456e-8749-b41696a6c780|1885bb15-ee9c-4b63-a948-42f0fa8c621a|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5",
+        "Intended. See U2 datasheet. "
+      ],
+      [
+        "pin_to_pin|1244600|812800|69c2edb4-65bb-48f7-9aca-c83a26506470|594c859f-79c7-4bd7-9448-0107fbe4932a|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5",
+        "Enable pin."
+      ],
+      [
+        "pin_to_pin|1244600|901700|aea53048-d824-4105-aa19-76b2ab6107a4|835eacc2-192b-45a2-ab3f-00afa29420de|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5|/5c9cf600-f97e-40e0-a9fc-86e24261d606",
+        "Optional I2C pullup that should be included off-board."
+      ],
+      [
+        "pin_to_pin|1244600|927100|fb824ec8-5a50-4ed6-8d16-82e6eea6c59a|fa294956-8ffa-4c73-9046-cd71f47cf73c|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5|/5c9cf600-f97e-40e0-a9fc-86e24261d606",
+        "Optional I2C pullup that should be included off-board."
+      ],
+      [
+        "pin_to_pin|1244600|990600|d6d083be-265d-4837-8a7f-eeb4e334e758|4f5541c4-88b9-42fe-ada1-9c8b0d6ddffe|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5|/5c9cf600-f97e-40e0-a9fc-86e24261d606/88d1765f-ddc0-48ad-80fe-a2d2d95242f5",
+        "IREF pin set to reference current."
+      ],
+      [
+        "power_pin_not_driven|2463800|1244600|04503fa0-4c42-4468-9208-7423b8f63297|00000000-0000-0000-0000-000000000000|/5c9cf600-f97e-40e0-a9fc-86e24261d606|/5c9cf600-f97e-40e0-a9fc-86e24261d606|",
+        "Power comes from off-board."
+      ],
+      [
+        "power_pin_not_driven|2527300|1244600|fc48ebd3-0956-4f97-86bd-1e739afb651e|00000000-0000-0000-0000-000000000000|/5c9cf600-f97e-40e0-a9fc-86e24261d606|/5c9cf600-f97e-40e0-a9fc-86e24261d606|",
+        "Power comes from off-board."
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -466,9 +523,9 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -486,14 +543,14 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
-      "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "simulation_model_issue": "warning",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -698,7 +755,7 @@
         "uuid": "5c237005-d2ed-4a35-b57c-699cd252542f"
       }
     ],
-    "used_designators": "U1-2,Q1-2,H1-5,#PWR1-40,FB1-2,J1-13,R1-13,R92-95,R165,R169-170,R1001,TP1-4,C1-5,C107,D1-5",
+    "used_designators": "D1-5,C1-5,C107,TP1-4,R1-17,R92-95,R165,R169-170,R1001,J1-13,FB1-2,#PWR1-41,H1-5,Q1-2,U1-2",
     "variants": [
       {
         "name": "My VARIANT DARNIT"
