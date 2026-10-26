@@ -420,7 +420,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at -8.89 -11.43 0)
 					(length 3.81)
 					(name "MISO"
@@ -720,7 +720,7 @@
 		)
 		(uuid "a38d5427-f270-4eac-8158-5969654776df")
 	)
-	(global_label "GP20"
+	(global_label "LCD_DC"
 		(shape input)
 		(at 198.12 90.17 180)
 		(fields_autoplaced yes)
@@ -732,7 +732,7 @@
 		)
 		(uuid "0704bf96-c7f2-4eb4-bce5-a2075db96730")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.1758 90.17 0)
+			(at 188.0591 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -744,9 +744,9 @@
 			)
 		)
 	)
-	(global_label "GP5"
+	(global_label "I2C0_SDA"
 		(shape input)
-		(at 198.12 105.41 180)
+		(at 198.12 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -754,9 +754,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1ed3e571-6fa9-44cc-a168-e0ade1511ec0")
+		(uuid "0dd4b701-0a35-4e76-8bd7-4c6d0220ed2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.3853 105.41 0)
+			(at 186.3053 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -768,7 +768,7 @@
 			)
 		)
 	)
-	(global_label "GP18"
+	(global_label "SCK"
 		(shape input)
 		(at 198.12 82.55 180)
 		(fields_autoplaced yes)
@@ -780,7 +780,7 @@
 		)
 		(uuid "5864060c-148d-43bc-9548-f54dd649960a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.1758 82.55 0)
+			(at 191.3853 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -792,7 +792,7 @@
 			)
 		)
 	)
-	(global_label "GP21"
+	(global_label "LCD_RESET"
 		(shape input)
 		(at 198.12 92.71 180)
 		(fields_autoplaced yes)
@@ -804,7 +804,7 @@
 		)
 		(uuid "5dff08c8-509d-44e1-92d0-029d257b83a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.1758 92.71 0)
+			(at 184.854 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -816,31 +816,7 @@
 			)
 		)
 	)
-	(global_label "GP4"
-		(shape input)
-		(at 198.12 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7d1a3cc5-9e65-4712-bcfa-0144cb3534a6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.3853 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GP17"
+	(global_label "LCD_CS"
 		(shape input)
 		(at 198.12 102.87 180)
 		(fields_autoplaced yes)
@@ -852,7 +828,7 @@
 		)
 		(uuid "96f8e727-252f-46d7-9cac-d6eec4b370fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.1758 102.87 0)
+			(at 188.1196 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -864,7 +840,7 @@
 			)
 		)
 	)
-	(global_label "GP16"
+	(global_label "RADIO_CS"
 		(shape input)
 		(at 198.12 87.63 180)
 		(fields_autoplaced yes)
@@ -876,7 +852,7 @@
 		)
 		(uuid "ae757d87-1e33-4939-b1f3-46803064315c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.1758 87.63 0)
+			(at 186.1238 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -888,7 +864,31 @@
 			)
 		)
 	)
-	(global_label "GP19"
+	(global_label "I2C0_SCL"
+		(shape input)
+		(at 198.12 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ddaa32fa-9dc9-43d4-ae3e-4225646aa065")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.3658 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MOSI"
 		(shape input)
 		(at 198.12 85.09 180)
 		(fields_autoplaced yes)
@@ -900,7 +900,7 @@
 		)
 		(uuid "fa4d82ce-4a54-4507-baf7-544266208722")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.1758 85.09 0)
+			(at 190.5386 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -924,7 +924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38278b21-a10f-4e4a-9237-31c9bff1eb5f")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR05"
 			(at 196.85 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -984,7 +984,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/bc27608c-d267-4607-a115-e0984dc927e7"
-					(reference "#PWR017")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -1002,7 +1002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db5e8839-61cd-4d1c-8395-c6182f18d8e3")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR04"
 			(at 182.88 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -1063,7 +1063,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/bc27608c-d267-4607-a115-e0984dc927e7"
-					(reference "#PWR018")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)

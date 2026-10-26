@@ -503,6 +503,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 77.47) (xy 135.89 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3488c8d9-b608-4444-8b98-c278aafd6025")
+	)
+	(wire
+		(pts
 			(xy 88.9 96.52) (xy 88.9 123.19)
 		)
 		(stroke
@@ -613,7 +623,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 68.58) (xy 133.35 71.12)
+			(xy 133.35 67.31) (xy 133.35 71.12)
 		)
 		(stroke
 			(width 0)
@@ -671,9 +681,33 @@
 		)
 		(uuid "fe1b63f2-90ad-47b3-b9f9-f76b426d545e")
 	)
+	(global_label "PG"
+		(shape output)
+		(at 135.89 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c635147-53e3-4d98-a925-02f37bb07821")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.4152 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 133.35 68.58 0)
+		(at 133.35 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -683,8 +717,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c8b674b-89d9-40d1-8e8c-d90293a54bf7")
-		(property "Reference" "#PWR04"
-			(at 133.35 72.39 0)
+		(property "Reference" "#PWR027"
+			(at 133.35 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -695,7 +729,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 133.35 63.5 0)
+			(at 133.35 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -705,7 +739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 68.58 0)
+			(at 133.35 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -716,7 +750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 68.58 0)
+			(at 133.35 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -727,7 +761,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 133.35 68.58 0)
+			(at 133.35 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -743,7 +777,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770"
-					(reference "#PWR04")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -761,7 +795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9407c749-1008-4981-8c1d-682e89604052")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR026"
 			(at 62.23 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -821,7 +855,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770"
-					(reference "#PWR03")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -920,7 +954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfb767fc-0be8-4542-ac4f-84aaef896122")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR028"
 			(at 133.35 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -980,7 +1014,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770"
-					(reference "#PWR08")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -999,7 +1033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de40ff6f-09d7-4fcb-a1fd-2c444d1a0b7c")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 71.12 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1061,7 +1095,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1079,7 +1113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fffb202d-150b-4af3-9c8f-c7973c949510")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR029"
 			(at 133.35 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -1139,7 +1173,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770"
-					(reference "#PWR015")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)

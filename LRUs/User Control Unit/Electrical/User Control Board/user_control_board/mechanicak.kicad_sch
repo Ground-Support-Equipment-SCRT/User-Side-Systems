@@ -346,7 +346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38112a59-cd64-491b-a0b8-1eb50a6f9433")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR047"
 			(at 137.16 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -407,7 +407,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/5b97fe44-b582-48d0-85a5-3f832c28b8e4"
-					(reference "#PWR091")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -425,7 +425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4366db5e-69c7-424e-9b92-b5fa8ffc9665")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 139.7 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -497,7 +497,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/5b97fe44-b582-48d0-85a5-3f832c28b8e4"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -515,7 +515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a8e50ed-3246-4dc9-8ad5-f79819a7135d")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR045"
 			(at 111.76 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -576,7 +576,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/5b97fe44-b582-48d0-85a5-3f832c28b8e4"
-					(reference "#PWR090")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -684,7 +684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b820e058-3b68-49f1-a2a9-fdc290ca4dbb")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 114.3 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -756,7 +756,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/5b97fe44-b582-48d0-85a5-3f832c28b8e4"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -774,7 +774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce870fec-f924-4adb-bf31-25247e8a1b46")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR044"
 			(at 111.76 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -835,7 +835,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/5b97fe44-b582-48d0-85a5-3f832c28b8e4"
-					(reference "#PWR088")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -853,7 +853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0695df3-35d9-4d4e-b03c-f070a5531fdb")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR046"
 			(at 137.16 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -914,7 +914,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/5b97fe44-b582-48d0-85a5-3f832c28b8e4"
-					(reference "#PWR089")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)

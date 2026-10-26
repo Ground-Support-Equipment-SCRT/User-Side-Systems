@@ -2657,29 +2657,6 @@
 		)
 		(uuid "e1dd46ad-b39a-4a0a-bd35-8c50e2e1643d")
 	)
-	(text "20"
-		(exclude_from_sim no)
-		(at 26.67 94.234 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 113 103 4 1)
-			)
-		)
-		(uuid "edc79139-f44a-4756-a745-6adb6ec9e926")
-	)
-	(junction
-		(at 152.4 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1895f6d5-01eb-4736-a3e0-cda105606655")
-	)
-	(junction
-		(at 68.58 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bf15b56-e074-4abf-a5e8-67020a266589")
-	)
 	(junction
 		(at 157.48 106.68)
 		(diameter 0)
@@ -2693,18 +2670,6 @@
 		(uuid "49188521-8971-4f36-88f8-fa95f2d2bc4a")
 	)
 	(junction
-		(at 78.74 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "602f6701-6d1a-461d-90e1-4fcda9429f42")
-	)
-	(junction
-		(at 93.98 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "609a95a8-bbca-4c1b-aa02-910a8de0899a")
-	)
-	(junction
 		(at 162.56 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2715,24 +2680,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fb4f328-fce9-47b2-b39c-cc4e18671bf7")
-	)
-	(junction
-		(at 87.63 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b64496aa-617b-4adb-950f-c740ae8a884a")
-	)
-	(junction
-		(at 172.72 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c24705d7-dad8-4611-9da9-48deeb8e7aba")
-	)
-	(junction
-		(at 142.24 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8206ce1-f548-40c8-8441-92df66baadcd")
 	)
 	(junction
 		(at 167.64 114.3)
@@ -2752,82 +2699,9 @@
 		(color 0 0 0 0)
 		(uuid "f56017d5-b007-4fd0-a889-83cda445d3fe")
 	)
-	(bus_entry
-		(at 46.99 96.52)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d7628af-f31a-461b-8044-59b67c518654")
-	)
-	(bus_entry
-		(at 46.99 104.14)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33ba29b1-7336-4a75-8d0c-101b265add2e")
-	)
-	(bus_entry
-		(at 46.99 114.3)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a1f0712-104e-4528-b175-f933a285df94")
-	)
-	(bus_entry
-		(at 46.99 99.06)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bb87b1a-747d-418e-bfc2-933de706e6e0")
-	)
-	(bus_entry
-		(at 46.99 109.22)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed95c174-e792-4dc7-b7a6-21fe11b157ef")
-	)
-	(bus_entry
-		(at 46.99 93.98)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9e31370-8b94-4582-9401-023b63ca751c")
-	)
-	(bus_entry
-		(at 46.99 111.76)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb6319c0-9648-4e48-8d0e-4b7014be1b0f")
-	)
 	(wire
 		(pts
-			(xy 99.06 116.84) (xy 172.72 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0446c5b5-6ba0-44e5-b075-70055249c56e")
-	)
-	(wire
-		(pts
-			(xy 92.71 74.93) (xy 93.98 74.93)
+			(xy 76.2 106.68) (xy 111.76 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2864,26 +2738,6 @@
 			(type default)
 		)
 		(uuid "2f39ad98-5c3b-4f03-9110-9f93622e96b6")
-	)
-	(wire
-		(pts
-			(xy 49.53 106.68) (xy 93.98 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "328cef3a-b03a-45c5-9db9-3f751a58e82d")
-	)
-	(wire
-		(pts
-			(xy 49.53 99.06) (xy 120.65 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "334d55f1-9d31-4d50-b698-706ad8ab2ee4")
 	)
 	(wire
 		(pts
@@ -2925,16 +2779,6 @@
 		)
 		(uuid "43545a39-3ec8-450e-b3e9-7985ad1467f8")
 	)
-	(bus
-		(pts
-			(xy 46.99 93.98) (xy 46.99 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "463dfaf8-bd28-4973-8d36-58ceb2576459")
-	)
 	(wire
 		(pts
 			(xy 147.32 99.06) (xy 147.32 129.54)
@@ -2967,16 +2811,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 83.82) (xy 78.74 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ec15d95-0532-432e-9068-a354a13fdfa5")
-	)
-	(wire
-		(pts
 			(xy 160.02 73.66) (xy 160.02 76.2)
 		)
 		(stroke
@@ -2984,16 +2818,6 @@
 			(type default)
 		)
 		(uuid "653527b8-4f4b-4dc8-a624-63f65e91886c")
-	)
-	(bus
-		(pts
-			(xy 46.99 99.06) (xy 46.99 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f0bdaf7-bb7b-4eac-85e6-6572380bb2bf")
 	)
 	(wire
 		(pts
@@ -3017,16 +2841,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 114.3) (xy 87.63 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73ccc856-ceff-4927-a5d8-7c39a8df6389")
-	)
-	(wire
-		(pts
 			(xy 179.07 139.7) (xy 177.8 139.7)
 		)
 		(stroke
@@ -3034,16 +2848,6 @@
 			(type default)
 		)
 		(uuid "741f69ac-a65f-438b-952d-a182303d31e3")
-	)
-	(wire
-		(pts
-			(xy 134.62 96.52) (xy 142.24 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75c7ce23-9c69-4ba4-bcdd-41dfdfe9cd34")
 	)
 	(wire
 		(pts
@@ -3094,16 +2898,6 @@
 			(type default)
 		)
 		(uuid "78731493-a35d-448e-bc00-2018d94a5434")
-	)
-	(wire
-		(pts
-			(xy 49.53 101.6) (xy 111.76 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bc24bac-b72d-4e5f-abff-b9431fd97b92")
 	)
 	(wire
 		(pts
@@ -3187,36 +2981,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 83.82) (xy 87.63 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7fc8349-39b9-4761-bdf6-58cf98a25d4d")
-	)
-	(wire
-		(pts
-			(xy 93.98 106.68) (xy 111.76 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc938781-b050-4b31-9324-38e6dadfd473")
-	)
-	(wire
-		(pts
-			(xy 93.98 74.93) (xy 93.98 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd348876-a63d-4184-8987-b33279099448")
-	)
-	(wire
-		(pts
 			(xy 242.57 121.92) (xy 242.57 119.38)
 		)
 		(stroke
@@ -3237,27 +3001,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 96.52) (xy 129.54 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5b92cf4-12f9-43c4-8053-3e9b90235856")
-	)
-	(wire
-		(pts
-			(xy 68.58 83.82) (xy 68.58 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce219dcb-0f80-432c-873f-115ba4224cbd")
-	)
-	(wire
-		(pts
-			(xy 77.47 83.82) (xy 78.74 83.82)
+			(xy 76.2 111.76) (xy 111.76 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3285,16 +3029,6 @@
 		)
 		(uuid "d4b094d8-357e-4b96-83d2-9dacbf945230")
 	)
-	(bus
-		(pts
-			(xy 46.99 96.52) (xy 46.99 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d872f3a0-fb04-44a7-9222-cfcf6e247aec")
-	)
 	(wire
 		(pts
 			(xy 172.72 116.84) (xy 196.85 116.84)
@@ -3305,26 +3039,6 @@
 		)
 		(uuid "df74fce0-da2e-4e19-a54d-d8cf67516702")
 	)
-	(bus
-		(pts
-			(xy 46.99 93.98) (xy 40.64 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2213b7c-104f-4ba5-93b9-3e8d0b8b417c")
-	)
-	(wire
-		(pts
-			(xy 49.53 116.84) (xy 93.98 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e233b606-2f58-4bae-a079-48e8eea0df64")
-	)
 	(wire
 		(pts
 			(xy 186.69 93.98) (xy 186.69 104.14)
@@ -3334,16 +3048,6 @@
 			(type default)
 		)
 		(uuid "ec1bd294-7791-47b7-a8e5-0a3759712d5d")
-	)
-	(wire
-		(pts
-			(xy 116.84 101.6) (xy 152.4 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef39a843-23c9-4ec1-b1db-bc0373ba0db2")
 	)
 	(wire
 		(pts
@@ -3367,17 +3071,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 111.76) (xy 111.76 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa396e45-77ed-4d4e-be97-f64653ba7eea")
-	)
-	(wire
-		(pts
-			(xy 67.31 83.82) (xy 68.58 83.82)
+			(xy 77.47 99.06) (xy 120.65 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3387,7 +3081,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 114.3) (xy 102.87 114.3)
+			(xy 76.2 114.3) (xy 102.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3395,79 +3089,9 @@
 		)
 		(uuid "fa9ce0ed-f3fe-4c44-9476-865ef1e185b4")
 	)
-	(label "SDMMC1_D3"
-		(at 50.8 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "14c552fa-dda2-404b-ad13-9761ae34ec1a")
-	)
-	(label "SDMMC1_D0"
-		(at 62.23 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "586e912a-96f6-4d69-84bd-9a76ddbfbe5f")
-	)
-	(label "SDMMC1_CMD"
-		(at 63.5 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "725e614c-8f36-452d-9f29-19d64a0cd34e")
-	)
-	(label "SD_DET"
-		(at 50.8 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7900a54c-632d-4da9-8235-023f3e66f9eb")
-	)
-	(label "SDMMC1_CK"
-		(at 62.23 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "abcf4021-57a3-4f07-8f56-67c1978e2d0c")
-	)
-	(label "SDMMC1_D1"
-		(at 50.8 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d21c0ce2-6389-43be-8ffe-b60dff9b0ea1")
-	)
-	(label "SDMMC1_D2"
-		(at 62.23 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e519be7b-34d4-4ea8-9344-e2ba8d0a41f1")
-	)
-	(global_label "GP19"
+	(global_label "MOSI"
 		(shape input)
-		(at 87.63 83.82 180)
+		(at 76.2 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3477,7 +3101,7 @@
 		)
 		(uuid "030041b7-b77f-472b-91d3-e26ef9a81fa8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.6858 83.82 0)
+			(at 68.6186 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3489,33 +3113,9 @@
 			)
 		)
 	)
-	(global_label "{SDMMC}"
-		(shape bidirectional)
-		(at 40.64 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a0f1f480-f791-4006-9ced-2bf6636842f2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.1978 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GP16"
+	(global_label "MISO"
 		(shape input)
-		(at 77.47 83.82 180)
+		(at 76.2 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3525,7 +3125,7 @@
 		)
 		(uuid "b1a80399-30ed-4d15-84e1-c886b5ef2e82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.5258 83.82 0)
+			(at 68.6186 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3537,9 +3137,9 @@
 			)
 		)
 	)
-	(global_label "GP18"
+	(global_label "SCK"
 		(shape input)
-		(at 92.71 74.93 180)
+		(at 76.2 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3549,7 +3149,7 @@
 		)
 		(uuid "c6063a28-9f19-4ebf-8cd8-b013f9dc1c35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.7658 74.93 0)
+			(at 69.4653 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3561,9 +3161,9 @@
 			)
 		)
 	)
-	(global_label "GP7"
+	(global_label "SD_CS"
 		(shape input)
-		(at 67.31 83.82 180)
+		(at 77.47 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3573,7 +3173,7 @@
 		)
 		(uuid "e509df6d-5746-4a03-96db-9e89091bdc21")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.5753 83.82 0)
+			(at 68.5582 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3598,7 +3198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12e7d3cf-24d2-4c05-a536-bf94da459889")
-		(property "Reference" "#PWR0270"
+		(property "Reference" "#PWR011"
 			(at 187.96 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3659,119 +3259,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "#PWR0270")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 132.08 96.52 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3825a402-09c7-4831-9172-5d6968af0cf4")
-		(property "Reference" "R165"
-			(at 130.556 95.504 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 134.874 95.504 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
-			(at 132.08 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0 1% 0603 Resistor"
-			(at 132.08 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 129.286 97.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C21189"
-			(at 132.08 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" "0603"
-			(at 136.144 97.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98b8d9e6-460c-4016-ad7b-91918e477ab4")
-		)
-		(pin "2"
-			(uuid "38003a6a-a0f7-40e6-b0b3-2545e8b7e06c")
-		)
-		(instances
-			(project "user_control_board"
-				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "R165")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3790,7 +3278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c045ce1-1eaa-448d-aada-855ad88356cc")
-		(property "Reference" "#PWR0267"
+		(property "Reference" "#PWR09"
 			(at 179.07 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3851,7 +3339,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "#PWR0267")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3868,7 +3356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53adff39-66f3-4ba2-bcde-dd312f9d0c3b")
-		(property "Reference" "#PWR0269"
+		(property "Reference" "#PWR010"
 			(at 186.69 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3949,7 +3437,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "#PWR0269")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3966,7 +3454,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e155916-a5b0-4283-8131-6214a71e9794")
-		(property "Reference" "C110"
+		(property "Reference" "C2"
 			(at 162.052 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3988,7 +3476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.02 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4072,7 +3560,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "C110")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4089,7 +3577,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77ca3800-c7c8-4ab1-bfa5-d9a9013fb4f3")
-		(property "Reference" "C107"
+		(property "Reference" "C1"
 			(at 152.146 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4111,7 +3599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "valve_pcb_footprints:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 149.86 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4184,7 +3672,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "C107")
+					(reference "C1")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -4193,118 +3681,6 @@
 							(value "10uF")
 						)
 					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 96.52 116.84 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7a31a04c-16ce-4fc4-bd13-682422d9f6ae")
-		(property "Reference" "R168"
-			(at 94.996 115.824 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 99.314 115.824 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
-			(at 96.52 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0 1% 0603 Resistor"
-			(at 96.52 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 93.726 118.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C21189"
-			(at 96.52 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" "0603"
-			(at 100.584 118.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bfd98498-c045-4e6c-8645-609e264622d3")
-		)
-		(pin "2"
-			(uuid "cee580ca-0bb6-4b6f-ad6d-6d0b2438a8d0")
-		)
-		(instances
-			(project "user_control_board"
-				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "R168")
-					(unit 1)
 				)
 			)
 		)
@@ -4320,7 +3696,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90ec2c75-bfd4-4741-8ec7-6db1b99d3cb6")
-		(property "Reference" "J16"
+		(property "Reference" "J2"
 			(at 202.184 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4441,7 +3817,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "J16")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4460,7 +3836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dde91c4-9191-4a12-bfc2-916eebcc9515")
-		(property "Reference" "#PWR0271"
+		(property "Reference" "#PWR012"
 			(at 194.31 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4521,7 +3897,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "#PWR0271")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4538,7 +3914,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a027709f-36e1-4204-9b13-146fcec7b2b5")
-		(property "Reference" "R173"
+		(property "Reference" "R4"
 			(at 109.982 105.664 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4558,7 +3934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 114.3 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4631,7 +4007,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "R173")
+					(reference "R4")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -4657,7 +4033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a72c3ec9-2cdd-490c-84ab-c293db855309")
-		(property "Reference" "#PWR0273"
+		(property "Reference" "#PWR013"
 			(at 242.57 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4718,7 +4094,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "#PWR0273")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4735,7 +4111,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7c626d5-e344-4cae-8a68-2dc231f4a446")
-		(property "Reference" "R169"
+		(property "Reference" "R8"
 			(at 176.53 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4755,7 +4131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.72 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4828,7 +4204,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "R169")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4845,7 +4221,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b25d50c0-3945-4fca-9946-9019369903a5")
-		(property "Reference" "#PWR0266"
+		(property "Reference" "#PWR06"
 			(at 149.86 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4926,7 +4302,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "#PWR0266")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4944,7 +4320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf7e5872-7515-42b3-b27b-a00555c3cfbc")
-		(property "Reference" "#PWR0272"
+		(property "Reference" "#PWR08"
 			(at 160.02 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5005,7 +4381,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "#PWR0272")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5022,7 +4398,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4ac3a81-cf89-4448-948a-28948190a929")
-		(property "Reference" "R170"
+		(property "Reference" "R2"
 			(at 103.886 113.284 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5044,7 +4420,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5079,6 +4455,7 @@
 		)
 		(property "Tolerance" "1%"
 			(at 102.616 115.57 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5117,7 +4494,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "R170")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5135,7 +4512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db9a8df5-46a1-424b-be09-7b9c989f8473")
-		(property "Reference" "#PWR0268"
+		(property "Reference" "#PWR07"
 			(at 149.86 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5196,7 +4573,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "#PWR0268")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5213,7 +4590,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfe7aad0-6764-481f-b1f0-3226e9394eb3")
-		(property "Reference" "U32"
+		(property "Reference" "U1"
 			(at 138.938 136.1439 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5347,7 +4724,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "U32")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5364,7 +4741,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e039a767-4c7e-434d-8af4-a47c4abd2998")
-		(property "Reference" "TP199"
+		(property "Reference" "TP1"
 			(at 180.34 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5466,7 +4843,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "TP199")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -5483,7 +4860,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5ac2fec-6284-48a7-9134-a3024238fda8")
-		(property "Reference" "R171"
+		(property "Reference" "R5"
 			(at 112.776 110.744 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5505,7 +4882,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 114.3 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5578,7 +4955,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "R171")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5595,7 +4972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee0399db-8501-447a-ac14-4187f4952496")
-		(property "Reference" "R166"
+		(property "Reference" "R6"
 			(at 121.666 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5617,7 +4994,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 123.19 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5690,119 +5067,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "R166")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 114.3 101.6 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ff5df234-a895-4e29-9446-a19f6fa1f946")
-		(property "Reference" "R167"
-			(at 112.776 100.584 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 117.094 100.584 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
-			(at 114.3 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0 1% 0603 Resistor"
-			(at 114.3 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 111.506 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C21189"
-			(at 114.3 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" "0603"
-			(at 118.364 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "93644596-7384-4842-a7f6-340440cb62b9")
-		)
-		(pin "2"
-			(uuid "18cf4d28-189d-47c5-85bc-1f850873b568")
-		)
-		(instances
-			(project "user_control_board"
-				(path "/8145ddcb-7265-441c-84aa-2bc4ea538193"
-					(reference "R167")
+					(reference "R6")
 					(unit 1)
 				)
 			)

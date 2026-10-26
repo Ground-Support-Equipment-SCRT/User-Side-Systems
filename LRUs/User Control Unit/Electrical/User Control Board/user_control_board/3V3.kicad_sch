@@ -1473,7 +1473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0659899a-2436-411e-8cf0-b9cfcf1e5f31")
-		(property "Reference" "U17"
+		(property "Reference" "U3"
 			(at 142.24 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1538,7 +1538,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/41704214-6d9d-43c3-b829-66d009a1b449"
-					(reference "U17")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -1557,7 +1557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "386651b9-cbea-46de-ba36-ae9dcd67e223")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR032"
 			(at 162.56 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1618,7 +1618,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/41704214-6d9d-43c3-b829-66d009a1b449"
-					(reference "#PWR0170")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1637,7 +1637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c322d10-be66-43ad-9568-3d8759461f04")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR033"
 			(at 175.26 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1698,7 +1698,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/41704214-6d9d-43c3-b829-66d009a1b449"
-					(reference "#PWR0172")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -1717,7 +1717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64544664-a665-4232-87b2-bf3da6a1293d")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR031"
 			(at 142.24 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1778,7 +1778,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/41704214-6d9d-43c3-b829-66d009a1b449"
-					(reference "#PWR0168")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -1797,7 +1797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86cdedf3-af4f-49b4-ac7b-6701a1646c22")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR030"
 			(at 119.38 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1858,7 +1858,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/41704214-6d9d-43c3-b829-66d009a1b449"
-					(reference "#PWR0163")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -1875,7 +1875,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88b4f575-de3c-48de-a37b-5e37453037f4")
-		(property "Reference" "C61"
+		(property "Reference" "C10"
 			(at 121.158 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1897,7 +1897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "valve_pcb_footprints:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 119.38 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1970,7 +1970,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/41704214-6d9d-43c3-b829-66d009a1b449"
-					(reference "C61")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -1987,7 +1987,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e32802b-d6a5-49e3-b897-d23eea7a75df")
-		(property "Reference" "C63"
+		(property "Reference" "C11"
 			(at 164.084 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2009,7 +2009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "valve_pcb_footprints:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 162.56 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2082,7 +2082,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/41704214-6d9d-43c3-b829-66d009a1b449"
-					(reference "C63")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2100,7 +2100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b046fdbe-5f8e-4584-83d0-32bf3a14613b")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG02"
 			(at 127 89.535 0)
 			(hide yes)
 			(show_name no)
@@ -2160,7 +2160,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/41704214-6d9d-43c3-b829-66d009a1b449"
-					(reference "#FLG05")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -2178,7 +2178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2558533-6976-4d84-a808-a0fdb96dd599")
-		(property "Reference" "#PWR0318"
+		(property "Reference" "#PWR034"
 			(at 189.23 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -2239,7 +2239,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/41704214-6d9d-43c3-b829-66d009a1b449"
-					(reference "#PWR0318")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2256,7 +2256,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e484f75f-5c7e-4ee2-8e9f-ed25733272a4")
-		(property "Reference" "R242"
+		(property "Reference" "R18"
 			(at 193.294 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2276,7 +2276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.23 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2349,7 +2349,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/41704214-6d9d-43c3-b829-66d009a1b449"
-					(reference "R242")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -2366,7 +2366,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5557d5f-30c6-4b98-92b7-f8207d2cc93d")
-		(property "Reference" "D42"
+		(property "Reference" "D2"
 			(at 191.77 107.442 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2472,7 +2472,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/41704214-6d9d-43c3-b829-66d009a1b449"
-					(reference "D42")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2489,7 +2489,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb9d5f44-b4b3-4abe-8724-48c557977ae9")
-		(property "Reference" "C65"
+		(property "Reference" "C12"
 			(at 177.038 94.488 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2584,7 +2584,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/41704214-6d9d-43c3-b829-66d009a1b449"
-					(reference "C65")
+					(reference "C12")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -2609,7 +2609,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb250f30-42f1-4edc-9ab6-7e47d1fcb431")
-		(property "Reference" "TP107"
+		(property "Reference" "TP7"
 			(at 176.53 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2711,7 +2711,7 @@
 		(instances
 			(project "user_control_board"
 				(path "/4e4fbe8c-7357-4f75-8a99-a243261c2770/41704214-6d9d-43c3-b829-66d009a1b449"
-					(reference "TP107")
+					(reference "TP7")
 					(unit 1)
 				)
 			)

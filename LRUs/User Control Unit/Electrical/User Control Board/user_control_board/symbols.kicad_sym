@@ -451,7 +451,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -8.89 -11.43 0)
 				(length 3.81)
 				(name "MISO"
@@ -698,6 +698,7 @@
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -708,6 +709,7 @@
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -749,8 +751,8 @@
 		)
 		(symbol "PCM5102_1_1"
 			(rectangle
-				(start -12.7 26.67)
-				(end 15.24 -12.7)
+				(start -15.24 24.13)
+				(end 12.7 -15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -760,7 +762,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 20.32 180)
+				(at 15.24 17.78 180)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -777,8 +779,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 16.51 180)
+			(pin passive line
+				(at 15.24 13.97 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -795,8 +797,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 17.78 12.7 180)
+			(pin input line
+				(at 15.24 10.16 180)
 				(length 2.54)
 				(name "WSEL"
 					(effects
@@ -814,7 +816,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 8.89 180)
+				(at 15.24 6.35 180)
 				(length 2.54)
 				(name "DIN"
 					(effects
@@ -832,7 +834,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 5.08 180)
+				(at 15.24 2.54 180)
 				(length 2.54)
 				(name "BCK"
 					(effects
@@ -850,7 +852,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 1.27 180)
+				(at 15.24 -1.27 180)
 				(length 2.54)
 				(name "Lout"
 					(effects
@@ -867,8 +869,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 -2.54 180)
+			(pin passive line
+				(at 15.24 -5.08 180)
 				(length 2.54)
 				(name "G"
 					(effects
@@ -886,7 +888,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -6.35 180)
+				(at 15.24 -8.89 180)
 				(length 2.54)
 				(name "Rout"
 					(effects
@@ -904,7 +906,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 20.32 0)
+				(at -17.78 17.78 0)
 				(length 2.54)
 				(name "DE"
 					(effects
@@ -922,7 +924,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 16.51 0)
+				(at -17.78 13.97 0)
 				(length 2.54)
 				(name "FIL"
 					(effects
@@ -940,7 +942,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 12.7 0)
+				(at -17.78 10.16 0)
 				(length 2.54)
 				(name "MCK"
 					(effects
@@ -958,7 +960,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 8.89 0)
+				(at -17.78 6.35 0)
 				(length 2.54)
 				(name "MU"
 					(effects
@@ -976,7 +978,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 5.08 0)
+				(at -17.78 2.54 0)
 				(length 2.54)
 				(name "FM"
 					(effects
@@ -994,7 +996,7 @@
 				)
 			)
 			(pin power_out line
-				(at -15.24 1.27 0)
+				(at -17.78 -1.27 0)
 				(length 2.54)
 				(name "3V"
 					(effects
@@ -1177,24 +1179,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -17.78 20.32 0)
-				(length 5.08)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at 17.78 -15.24 180)
 				(length 5.08)
@@ -1231,42 +1215,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 17.78 -27.94 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -5.08 180)
-				(length 5.08)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -17.78 10.16 0)
 				(length 5.08)
@@ -1278,24 +1226,6 @@
 					)
 				)
 				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -17.78 -5.08 0)
-				(length 5.08)
-				(name "ILIM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1321,7 +1251,81 @@
 					)
 				)
 			)
-			(pin power_in line
+		)
+		(symbol "TPS61089RNRR_1_1"
+			(pin power_out line
+				(at -17.78 20.32 0)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 -27.94 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 17.78 -5.08 180)
+				(length 5.08)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -17.78 -5.08 0)
+				(length 5.08)
+				(name "ILIM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
 				(at 17.78 25.4 180)
 				(length 5.08)
 				(name "BOOT"
@@ -1339,7 +1343,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 17.78 15.24 180)
 				(length 5.08)
 				(name "SW"
@@ -1350,6 +1354,243 @@
 					)
 				)
 				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ethernet_ada"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ethernet_ada_1_1"
+			(rectangle
+				(start -6.35 8.89)
+				(end 6.35 -13.97)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
+			(pin power_in line
+				(at 8.89 6.35 180)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 8.89 2.54 180)
+				(length 2.54)
+				(name "3.3V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 -1.27 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 -5.08 180)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -8.89 -8.89 0)
+				(length 2.54)
+				(name "MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 -5.08 0)
+				(length 2.54)
+				(name "MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 -1.27 0)
+				(length 2.54)
+				(name "CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -8.89 2.54 0)
+				(length 2.54)
+				(name "IRQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 6.35 0)
+				(length 2.54)
+				(name "RESET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
