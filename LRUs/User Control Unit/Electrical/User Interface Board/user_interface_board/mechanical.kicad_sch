@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "c8f7dc7a-0217-4d58-a1fc-397bdcf2d5cb")
 	(paper "A4")
+	(title_block
+		(title "Mechanical")
+		(date "2026-10-26")
+		(rev "A")
+	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers

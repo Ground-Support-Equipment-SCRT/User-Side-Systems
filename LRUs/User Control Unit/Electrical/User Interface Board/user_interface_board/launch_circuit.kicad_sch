@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "f9646c7d-aeb0-47b1-9895-11bff53d5f71")
 	(paper "A4")
+	(title_block
+		(title "Launch Circuit")
+		(date "2026-10-26")
+		(rev "A")
+	)
 	(lib_symbols
 		(symbol "Device:LED"
 			(pin_numbers

@@ -260,7 +260,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "A"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -287,6 +287,10 @@
       ],
       [
         "multiple_net_names|2501900|660400|631545ff-dfc6-488b-b228-8acbf33a0daf|15c14dd0-3f36-4858-8a03-e1ca51d68e94|/5c9cf600-f97e-40e0-a9fc-86e24261d606/d8e6c390-caf1-4e15-bf61-91cbe3d04e0b|/5c9cf600-f97e-40e0-a9fc-86e24261d606/d8e6c390-caf1-4e15-bf61-91cbe3d04e0b|/5c9cf600-f97e-40e0-a9fc-86e24261d606/d8e6c390-caf1-4e15-bf61-91cbe3d04e0b",
+        "Intended."
+      ],
+      [
+        "multiple_net_names|304800|1219200|454b6554-df03-4fd8-a847-14f72cad60b8|c5a12914-d5ce-4c64-b3b6-71ae6ab794a0|/5c9cf600-f97e-40e0-a9fc-86e24261d606/d8e6c390-caf1-4e15-bf61-91cbe3d04e0b|/5c9cf600-f97e-40e0-a9fc-86e24261d606/d8e6c390-caf1-4e15-bf61-91cbe3d04e0b|/5c9cf600-f97e-40e0-a9fc-86e24261d606/d8e6c390-caf1-4e15-bf61-91cbe3d04e0b",
         "Intended."
       ],
       [
@@ -728,7 +732,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://SCRT_Template.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
