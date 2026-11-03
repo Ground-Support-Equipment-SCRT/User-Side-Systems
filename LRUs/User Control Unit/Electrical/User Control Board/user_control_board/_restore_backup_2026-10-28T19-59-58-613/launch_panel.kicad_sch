@@ -1,0 +1,59 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a4c32c3c-82d6-44fe-a8bb-7c51ef150096")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 67.31 74.93)
+		(size 27.94 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3c108025-86b7-4c27-9d03-bc1859a76fa4")
+		(property "Sheetname" "SAFE LED"
+			(at 67.31 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SAFE LED.kicad_sch"
+			(at 67.31 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "user_control_board"
+				(path "/549d8f21-b455-4424-9ed8-ce6ed0e769ae"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "13")
+		)
+	)
+)

@@ -451,7 +451,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -8.89 -11.43 0)
 				(length 3.81)
 				(name "MISO"
@@ -1374,6 +1374,7 @@
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,6 +1385,7 @@
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,8 +1427,8 @@
 		)
 		(symbol "ethernet_ada_1_1"
 			(rectangle
-				(start -6.35 8.89)
-				(end 6.35 -13.97)
+				(start -7.62 10.16)
+				(end 5.08 -12.7)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1437,7 +1439,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 6.35 180)
+				(at 7.62 7.62 180)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -1455,7 +1457,7 @@
 				)
 			)
 			(pin power_out line
-				(at 8.89 2.54 180)
+				(at 7.62 3.81 180)
 				(length 2.54)
 				(name "3.3V"
 					(effects
@@ -1473,7 +1475,7 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 -1.27 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1491,7 +1493,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 -5.08 180)
+				(at 7.62 -3.81 180)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -1509,7 +1511,7 @@
 				)
 			)
 			(pin output line
-				(at -8.89 -8.89 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "MISO"
 					(effects
@@ -1527,7 +1529,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -5.08 0)
+				(at -10.16 -3.81 0)
 				(length 2.54)
 				(name "MOSI"
 					(effects
@@ -1545,7 +1547,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -1.27 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "CS"
 					(effects
@@ -1563,7 +1565,7 @@
 				)
 			)
 			(pin output line
-				(at -8.89 2.54 0)
+				(at -10.16 3.81 0)
 				(length 2.54)
 				(name "IRQ"
 					(effects
@@ -1581,7 +1583,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 6.35 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "RESET"
 					(effects

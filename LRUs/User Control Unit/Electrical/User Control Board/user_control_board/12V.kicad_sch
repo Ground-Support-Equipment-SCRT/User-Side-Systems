@@ -1572,7 +1572,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 66.04) (xy 87.63 66.04)
+			(xy 87.63 66.04) (xy 157.48 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2111,8 +2111,8 @@
 		(uuid "f38ee353-f189-4f20-a673-584e5b30ff8c")
 	)
 	(image
-		(at 91.44 152.4)
-		(scale 1.11025)
+		(at 48.26 177.8)
+		(scale 1.06453)
 		(uuid "a037bfa2-11e9-4b13-8335-fcde4699c6ae")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAwQAAAGrCAYAAAB+LlDwAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3XtYVVX++PH35nA5XAUDg5JJlErEG3T5BlkTlKNhhkJqSdqUl8nRvuOo3afLOFZTptmkdtOa"
@@ -5149,7 +5149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_VQFN-RNR0011A-11"
+		(property "Footprint" "footprints:RNR0011A"
 			(at 180.34 86.36 0)
 			(hide yes)
 			(show_name no)

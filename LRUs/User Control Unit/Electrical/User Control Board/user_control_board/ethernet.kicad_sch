@@ -269,6 +269,7 @@
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -279,6 +280,7 @@
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -320,8 +322,8 @@
 			)
 			(symbol "ethernet_ada_1_1"
 				(rectangle
-					(start -6.35 8.89)
-					(end 6.35 -13.97)
+					(start -7.62 10.16)
+					(end 5.08 -12.7)
 					(stroke
 						(width 0)
 						(type solid)
@@ -332,7 +334,7 @@
 					)
 				)
 				(pin power_in line
-					(at 8.89 6.35 180)
+					(at 7.62 7.62 180)
 					(length 2.54)
 					(name "VIN"
 						(effects
@@ -350,7 +352,7 @@
 					)
 				)
 				(pin power_out line
-					(at 8.89 2.54 180)
+					(at 7.62 3.81 180)
 					(length 2.54)
 					(name "3.3V"
 						(effects
@@ -368,7 +370,7 @@
 					)
 				)
 				(pin passive line
-					(at 8.89 -1.27 180)
+					(at 7.62 0 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -386,7 +388,7 @@
 					)
 				)
 				(pin input line
-					(at 8.89 -5.08 180)
+					(at 7.62 -3.81 180)
 					(length 2.54)
 					(name "SCK"
 						(effects
@@ -404,7 +406,7 @@
 					)
 				)
 				(pin output line
-					(at -8.89 -8.89 0)
+					(at -10.16 -7.62 0)
 					(length 2.54)
 					(name "MISO"
 						(effects
@@ -422,7 +424,7 @@
 					)
 				)
 				(pin input line
-					(at -8.89 -5.08 0)
+					(at -10.16 -3.81 0)
 					(length 2.54)
 					(name "MOSI"
 						(effects
@@ -440,7 +442,7 @@
 					)
 				)
 				(pin input line
-					(at -8.89 -1.27 0)
+					(at -10.16 0 0)
 					(length 2.54)
 					(name "CS"
 						(effects
@@ -458,7 +460,7 @@
 					)
 				)
 				(pin output line
-					(at -8.89 2.54 0)
+					(at -10.16 3.81 0)
 					(length 2.54)
 					(name "IRQ"
 						(effects
@@ -476,7 +478,7 @@
 					)
 				)
 				(pin input line
-					(at -8.89 6.35 0)
+					(at -10.16 7.62 0)
 					(length 2.54)
 					(name "RESET"
 						(effects
@@ -499,7 +501,7 @@
 	)
 	(text "?\n"
 		(exclude_from_sim no)
-		(at 137.668 91.186 0)
+		(at 136.398 89.916 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -508,12 +510,12 @@
 		(uuid "0132ff63-680d-47b5-8859-fe284d685899")
 	)
 	(no_connect
-		(at 165.1 87.63)
+		(at 163.83 86.36)
 		(uuid "c9ca9580-e240-496f-a847-6872e9d1810c")
 	)
 	(wire
 		(pts
-			(xy 165.1 91.44) (xy 173.99 91.44)
+			(xy 163.83 90.17) (xy 172.72 90.17)
 		)
 		(stroke
 			(width 0)
@@ -523,7 +525,7 @@
 	)
 	(global_label "ETHERNET_CS"
 		(shape output)
-		(at 147.32 91.44 180)
+		(at 146.05 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -533,7 +535,7 @@
 		)
 		(uuid "126710a1-fbfe-4982-8c7b-543015a4439c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.5745 91.44 0)
+			(at 130.3045 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -547,7 +549,7 @@
 	)
 	(global_label "MISO"
 		(shape output)
-		(at 147.32 99.06 180)
+		(at 146.05 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -557,7 +559,7 @@
 		)
 		(uuid "36b692e1-4925-4c85-afcc-16c27f3aafe1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7386 99.06 0)
+			(at 138.4686 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -571,7 +573,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 147.32 95.25 180)
+		(at 146.05 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -581,7 +583,7 @@
 		)
 		(uuid "4870cd9f-7d31-4676-a0fb-ebfec37f388a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7386 95.25 0)
+			(at 138.4686 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -595,7 +597,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 165.1 95.25 0)
+		(at 163.83 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -605,7 +607,7 @@
 		)
 		(uuid "a23e2f6c-aba5-44ff-9b28-860e3d745481")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.8347 95.25 0)
+			(at 170.5647 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -619,7 +621,7 @@
 	)
 	(global_label "ETHERNET_RST"
 		(shape output)
-		(at 147.32 83.82 180)
+		(at 146.05 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -629,7 +631,7 @@
 		)
 		(uuid "c2011ea2-f3f6-4b35-8fdf-c0d5c8f892b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.6069 83.82 0)
+			(at 129.3369 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -643,7 +645,7 @@
 	)
 	(global_label "ETHERNET_IRQ"
 		(shape input)
-		(at 147.32 87.63 180)
+		(at 146.05 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -653,7 +655,7 @@
 		)
 		(uuid "e91df196-6022-4fba-af47-5a56cce7d253")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.8487 87.63 0)
+			(at 129.5787 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -667,7 +669,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 91.44 0)
+		(at 172.72 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -677,7 +679,7 @@
 		(dnp no)
 		(uuid "78ab71cc-606a-4e24-bfb6-ffc4771c7343")
 		(property "Reference" "#PWR061"
-			(at 173.99 97.79 0)
+			(at 172.72 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -688,7 +690,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 174.498 89.662 0)
+			(at 173.228 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -698,7 +700,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 91.44 0)
+			(at 172.72 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -709,7 +711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 91.44 0)
+			(at 172.72 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -720,7 +722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 91.44 0)
+			(at 172.72 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -845,7 +847,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 165.1 83.82 0)
+		(at 163.83 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -856,7 +858,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4448a06-ec5a-4dbb-bae8-40cb14d7ccd5")
 		(property "Reference" "#PWR060"
-			(at 165.1 87.63 0)
+			(at 163.83 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -867,7 +869,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 165.1 78.74 0)
+			(at 163.83 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -877,7 +879,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 83.82 0)
+			(at 163.83 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -888,7 +890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 83.82 0)
+			(at 163.83 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -899,7 +901,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 165.1 83.82 0)
+			(at 163.83 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
